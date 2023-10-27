@@ -171,3 +171,192 @@ footer{
     font-size: 25px;
 
 }
+
+@media all and (min-width:350px) and (max-width:540px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: red; */
+        font-size: 10px;
+        padding: 25px;
+        height: 70px;
+    }
+    .header-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #6196FF; */
+        align-content: center;
+        font-size: 20px;
+        gap: 5px;
+        text-align: center;
+        width: 145px;
+    }
+    #logo{
+        /* background-color: red; */
+        height: 20px;
+        width: 150px;
+
+    }
+    #banner{
+        background-image: url(/assets/kw-background.png);
+        background-size: 100% 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        font-size: 30px;
+        color: white;
+        padding: 10px 30px;
+        font-weight: 900;
+        line-height: 45px;
+    }
+    #banner span{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+
+    #n-books{
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-weight: 700
+
+        
+    }
+    #n-books p{
+        font-size: 30px;
+        margin-bottom: 10px;
+        /* background-color: rebeccapurple; */
+    }
+    #books{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+    .b-img img {
+        height: 300px;
+    }
+    .title{
+        font-weight:900;
+        font-size: 20px;
+    }
+    .author{
+        color: #929191;
+        margin-top: 5px;
+    }
+    .price-btn span{
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .price-btn{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .addbtn{
+        background-color: #6196FF;
+        border-radius: 10%;
+        width: 70px;
+        padding: 5px;
+        border-color: rgba(0, 0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        color: white;
+    }
+    
+    
+    #n-games{
+        padding-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-weight: 700;
+        
+    }
+    #n-games p{
+        font-size: 30px;
+        margin-bottom: 10px;
+        /* background-color: rebeccapurple; */
+    }
+    #games{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    
+    }
+    .g-img img{
+        height: 300px;
+    }
+    
+    #handmade{
+        padding-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-weight: 700;
+    }
+    #handmade p{
+        font-size: 30px;
+        margin-bottom: 10px;
+        /* background-color: rebeccapurple; */
+    }
+    #prod{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    
+    }
+    .p-img img{
+        height: 300px;
+    }
+    footer{
+        margin-top: 200px;
+        background-color: #000000;
+        color: white;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+    }
+    #credleft img{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        
+    }
+    #credleft{
+        padding-left: 10px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 100px;
+    }
+    #credits{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    #credright{
+        text-align:right;
+        align-content: normal;
+        padding-right: 30px;
+        width: 200px;
+        
+    }
+    #credright span{
+        font-size: 25px;
+    
+    }
+}
